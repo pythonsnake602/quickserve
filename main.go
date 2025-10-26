@@ -14,6 +14,7 @@ import (
 
 var compressionTypes = map[string]string{
 	".gz": "gzip",
+	".br": "br",
 }
 
 func applyHeaders(w http.ResponseWriter, path string) {
